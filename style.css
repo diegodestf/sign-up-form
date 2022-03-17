@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@700&display=swap');
+
+* {
+    margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+body {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+      }
+
+.container {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+.image-container {
+    background-image: url(/images/background-image.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    width: 45vw;
+    display: flex;
+    flex-direction: column;
+    }
+
+.image-credits {
+    font-family: Titillium Web;
+    color: #FFFAFA;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    
+}
+
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
