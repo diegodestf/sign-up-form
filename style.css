@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
 
 * {
     margin: 0;
@@ -44,9 +45,10 @@ body {
 .second-container {
     background-color: #461220;
     background-image: linear-gradient(315deg, #461220 0%, #e0d4ae 74%);
-
     width: 100%;
     padding: 60px;
+    display: flex;
+    flex-direction: column;
 }
 
 .header-section {
@@ -54,6 +56,46 @@ body {
     font-size: 2em;
     line-height: 3rem;
     color: #4d3227;
+    
+}
+
+.form-section {
+    margin-top: 20px;
+    font-family: Montserrat;
+    display: flex;
+    flex-flow: column wrap;
+    width: 100%;
+    line-height: 2rem;
+}
+
+.form-section form {
+    margin-top: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    font-size: 1.2em;
+    justify-content: flex-start
+    
+}
+
+h1 {
+    font-size: 1.5em;
+}
+
+.form-section p {
+    font-size: 0.8rem;
+    opacity: 0.4;
+}
+
+.input {
+    width: 50%;
+}
+
+input {
+    width: 80%;
+    height: 2.0em;
+    display: flex;
+    opacity: 0.3;
+    border-radius: 0.5em;
     
 }
 
